@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        ul{
+
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: grey;
+        }
+        li{
+            float: right;
+
+        }
+        li a{
+            color: white;
+            padding: 14px;
+            font-size: 14px;
+            font-family: Nakula;
+            text-decoration: none;
+            display: block;
+
+        }</style>
+</head>
+<body>
+<div class="container-fluid bg-success text-center pt-1 text font-weight-bolder">
+   <h2>Tech.com</h2>
+</div>
+<div class="container-fluid ">
+    <div class="container-fluid ">
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="repairs.html">Repairs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+
+        </ul>
+    </div></div>
+<div>
+<div class="container pt-5">
+
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+    sign in
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">sign in</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Sign in">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                    <h2>Login Form</h2>
+                    <form action="# "class="col-sm-6">
+                        <div class="form-group">
+                            <label for="uname">Username</label>
+                            <input  class="form-control" id="uname" type="text" name="Username" placeholder="Username">
+                        </div>
+                        <div>
+                            <label for="upass">Password</label>
+                            <input class="form-control"id="upass" type="password" name="userpassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input  type="checkbox"value="remember">Remember me
+
+                        </div>
+                        <div>
+                            <button class="btn bg-success" type="submit">Sign in</button>
+                        </div>
+                        <p>Don't have an account <a href="#">Sign up now</a></p>
+
+
+
+
+
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body></div>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6"><img src="images/tv.jpeg" height="194" width="259"/></div>
+                        <div class="col-sm-6"><img src="images/laptop.jpeg" height="194" width="259"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6"><img src="images/lapi5.jpeg" height="194" width="259"/></div>
+                        <div class="col-sm-6"><img src="images/phone5.jpeg" height="194" width="259"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6"><img src="images/lapi1.jpeg" height="194" width="259"/></div>
+                        <div class="col-sm-6"><img src="images/phone.jpeg" height="194" width="259"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card"> <div class="card-header"><h3>Repairs</h3></div>
+                    <div class="card-body">
+                        <div class="col-sm-4"><img src="images/brokenlaptopscr.jpeg" height="194" width="259"/>
+                        </div>
+                        <img src="images/phonebrokenscreen.jpeg" height="225" width="225"/>
+                        <a class="card-link" href="repairs.html">Go to repairs</a></div>
+                </div></div>
+
+            <div class="col-sm-6">
+
+                    <div class="card"> <div class="card-header"><h3>Purchases</h3></div><div class="card-body"><div class="col-sm-4">
+                        <img src="images/phone.jpeg" height="168" width="300"/></div>
+                        <div class="col-sm-4"><img src="images/laptop.jpeg" height="194" width="259"/></div>
+                    </div></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-dark">
+    <div class="row">
+    <div class="col-sm-2"></div>
+        <div class="col-sm-2"><a href="contactus.html">contact us</a></div>
+        <div class="col-sm-2"><a href="contactus.html">About us</a></div>
+        <div class="col-sm-2"><a href="repairs.html">Repairs</a></div>
+        <div class="col-sm-2"><a href="#">Purchases</a></div>
+        <div class="col-sm-2"><a href="gallery.html">Televions</a></div>
+    </div>
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-2"><a href="gallery.html">Phones</a></div>
+    <div class="col-sm-2"><a href="gallery.html">Refrigerators</a></div>
+    <div class="col-sm-2"><a href="gallery.html">Laptops</a></div>
+    <div class="col-sm-2"><a href="gallery.html">Accesories</a></div>
+    <div class="col-sm-2"><a href="gallery.html">Lighting</a></div>
+</div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"><a href="gallery.html">Gallery</a></div>
+        <div class="col-sm-2"><a href="home.html">Customer Login</a></div>
+        <div class="col-sm-2"><a href="home.html">Trader login</a></div>
+        <div class="col-sm-2"><a href="#">Offers</a></div>
+        <div class="col-sm-2"><a href="#">Staff</a></div>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <meta charset="UTF-8">
+    <title>contactus</title>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        ul{
+
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: grey;
+        }
+        li{
+            float: right;
+
+        }
+        li a{
+            color: white;
+            padding: 14px;
+            font-size: 14px;
+            font-family: Nakula;
+            text-decoration: none;
+            display: block;
+
+        }
+        h3{
+            text-align: center;
+            background-color: grey;
+
+        }</style>
+</head>
+<body>
+<div class="container-fluid bg-success text-center pt-1 text font-weight-bolder">
+    <h2>Tech.com</h2>
+</div>
+</div>
+<div class="container-fluid ">
+    <ul>
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="repairs.html">Repairs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+
+
+    </ul>
+</div>
+<div class="col-sm-6">
+    <label for="Username">User name</label>
+    <input type="text" class="form-control" id="Username" placeholder="User name" name="user">
+</div>
+<div class="col-sm-6"><label for="email.1">Enter your email</label>
+    <input type="email" name="emailone"id="email.1" placeholder="Enter your Email" class="form-control"></div>
+<div class="col-sm-6">
+    <label for="epass">Enter email pass</label>
+    <input type="password" class="form-control"name="epass" placeholder="Enter email password" id="epass">
+</div>
+<div class="col-sm-6">
+    <label for="password">Enter password</label>
+    <input type="password"name="pass"id="password"placeholder="Recomend password above 8 characters" class="form-control">
+</div>
+<div class="col-sm-6">
+    <label for="repass">Reenter password</label>
+    <input type="password"name="repass"id="repass" class="form-control"placeholder="Reenter password">
+</div>
+<button class="btn btn-success" type="submit">Submit</button>
+</body>
+</html>
